@@ -12,11 +12,12 @@ class App extends Component {
     topScore : 0
   }
 
+  clickedCard = id => {
+    
+  }
   
-
-  render() {
-    function shuffleArray(array) {
-      let i = array.length - 1;
+  shuffleArray = array => {
+    let i = array.length - 1;
       for (; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
         const temp = array[i];
@@ -24,7 +25,8 @@ class App extends Component {
         array[j] = temp;
       }
       return array;
-    }
+  }
+  render() {
     
     return (
       <div className="App">
@@ -43,7 +45,7 @@ class App extends Component {
           </div>
         </div>
         <Wrapper>
-          {shuffleArray(this.state.images).map(image => <GameCard image={image}/>)}
+          {this.shuffleArray(this.state.images).map(image => <GameCard image={image}/>)}
         </Wrapper>
         <footer class="footer">
           <div class="bottom">Clicky Game! 
