@@ -20,7 +20,7 @@ class App extends Component {
     if(this.state.unclickedImages.find(image=> image.id === id)){
       this.setState({
         score: this.state.score +1,
-        unclickedImages : this.state.images.filter(image=> image.id !== id),
+        unclickedImages : this.state.unclickedImages.filter(image=> image.id !== id),
         message : "You guessed correctly!",
       });
 
@@ -33,6 +33,7 @@ class App extends Component {
         topScore : (this.state.score > this.state.topScore) ? this.state.score : this.state.topScore
       })
     }
+    console.log(this.state.unclickedImages);
 
   }
   
@@ -70,6 +71,7 @@ class App extends Component {
             clickedCard={this.clickedCard}
             image={image.image}
             id={image.id}
+            key={image.id}
           />          
           )}
         </Wrapper>
