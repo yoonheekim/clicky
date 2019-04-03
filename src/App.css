@@ -31,3 +31,7 @@
     transform: rotate(360deg);
   }
 }
+
+.jumbotron {
+  margin-top: 75px;
+}

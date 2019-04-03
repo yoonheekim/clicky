@@ -3,7 +3,7 @@ import "./style.css";
 
 function Nav(props){
     return (
-        <nav className="navbar navbar-dark bg-primary">
+        <nav className="navbar navbar-dark bg-primary fixed-top">
         {/* navbar-expand-lg navbar-dark bg-primary */}
             <a className="navbar-brand" href="/"><i className="fas fa-mouse-pointer mr-3"></i>Clicky Game</a>
             <li className="navbar nav-item"><h2 className="text-white">{props.message}</h2></li>
