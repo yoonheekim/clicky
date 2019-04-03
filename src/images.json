@@ -1,62 +1,62 @@
 [
     {
       "id": 1,
-      "image": "../images/1.jpg",
+      "image": "https://raw.githubusercontent.com/yoonheekim/clicky/master/public/images/1.jpg",
       "clicked": false
     },
     {
       "id": 2,
-      "image": "../images/2.jpg",
+      "image": "https://raw.githubusercontent.com/yoonheekim/clicky/master/public/images/2.jpg",
       "clicked": false
     },
     {
       "id": 3,
-      "image": "../images/3.jpg",
+      "image": "https://raw.githubusercontent.com/yoonheekim/clicky/master/public/images/3.jpg",
       "clicked": false
     },
     {
       "id": 4,
-      "image": "../images/4.jpg",
+      "image": "https://raw.githubusercontent.com/yoonheekim/clicky/master/public/images/4.jpg",
       "clicked": false
     },
     {
       "id": 5,
-      "image": "../images/5.jpg",
+      "image": "https://raw.githubusercontent.com/yoonheekim/clicky/master/public/images/5.jpg",
       "clicked": false
     },
     {
       "id": 6,
-      "image": "../images/6.jpg",
+      "image": "https://raw.githubusercontent.com/yoonheekim/clicky/master/public/images/6.jpg",
       "clicked": false
     },
     {
       "id": 7,
-      "image": "../images/7.jpg",
+      "image": "https://raw.githubusercontent.com/yoonheekim/clicky/master/public/images/7.jpg",
       "clicked": false
     },
     {
       "id": 8,
-      "image": "../images/8.jpg",
+      "image": "https://raw.githubusercontent.com/yoonheekim/clicky/master/public/images/8.jpg",
       "clicked": false
     },
     {
       "id": 9,
-      "image": "../images/9.jpg",
+      "image": "https://raw.githubusercontent.com/yoonheekim/clicky/master/public/images/9.jpg",
       "clicked": false
     },
     {
       "id": 10,
-      "image": "../images/10.jpg",
+      "image": "https://raw.githubusercontent.com/yoonheekim/clicky/master/public/images/10.jpg",
       "clicked": false
     },
     {
       "id": 11,
-      "image": "../images/11.jpg",
+      "image": "https://raw.githubusercontent.com/yoonheekim/clicky/master/public/images/11.jpg",
       "clicked": false
     },
     {
       "id": 12,
-      "image": "../images/12.jpg",
+      "image": "https://raw.githubusercontent.com/yoonheekim/clicky/master/public/images/12.jpg",
       "clicked": false
     }
   ]
